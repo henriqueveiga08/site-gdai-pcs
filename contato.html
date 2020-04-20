@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="uft-8">
+    <link rel="stylesheet" type="text/css" href="css/layout.css">
+    <title>G-DAI</title>
+</head>
+<!-- Corpo do site -->
+
+<body>
+    <!-- cabecario -->
+    <header>
+        <div class="conteiner">
+            <div id="logo">
+                <img id="id_logo" src="img/logo.png" alt="logo G-DAI">
+            </div>
+            <div id="menupesquisa">
+                <div id="menu">
+                    <a href="index.html">Home</a>
+                    <a href="sobre.html">Sobre</a>
+                    <a href="blog.html">Blog</a>
+                    <a href="contato.html">Contato</a>
+                </div>
+                <div id="pesquisa">
+                    <form action="#" method="POST">
+                        <input type="text" name="pesquisar" placeholder="Buscar no site">
+                        <input type="submit" value="Pesquisar" name="submit">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="content">
+        <div class="contato">
+            <h2>Entre em contato através do formulário</h2>
+            <form class="form" action="enviaemail.php" method="POST">
+                <label>Nome*</label>
+                <input class="field" type="text" name="nome" placeholder="Seu nome">
+                <br>
+                <label>E-mail*</label>
+                <input class="field" type="text" name="email" placeholder="Seu e-mail">
+                <br>
+                <label>Mensagem*</label>
+                <textarea class="field" name="mensagem" placeholder="Digite sua mensagem aqui"></textarea>
+                <br>
+                <input class="field" type="submit" value="Enviar">
+            </form>
+            <div class="img_logo">
+                <img style="width: 50%" src="img/logo_sobre.png" alt="foto de capa G-DAI">
+            </div>
+        </div>
+    </section>
+    <!-- rodape -->
+    <footer>Desenvolvido por engesite@gmail.com</footer>
+</body>
+
+</html>

@@ -1,0 +1,255 @@
+/*elimina configuração padrao de margem do nevegador*/
+* {
+    margin: 0;
+    /*Margem externa*/
+    padding: 0;
+    /*Margem interna*/
+}
+
+/*cordo do site*/
+body {
+    background-color: #0D0D0D;
+}
+
+/*cabecario*/
+header {
+    background-color: #040D40;
+    height: 70px;
+    padding: 20px 20px 30px 20px;
+}
+
+h1 {
+    font-size: 45px;
+    color: white;
+    text-align: center;
+    text-shadow: 2px 2px 2px #0D0D0D;
+    padding: 0 0 80px 0;
+}
+
+
+h2 {
+    color: #0D0D0D;
+    text-align: center;
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+p {
+    color: whitesmoke;
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+    text-shadow: 1px 1px 1px rgb(0, 0, 0);
+}
+
+textarea {
+    height: 150px;
+}
+
+/*rodape*/
+footer {
+    clear: both;
+    background-color: #D1DFDD;
+    height: 20px;
+    text-align: center;
+    font-family: Helvetica, Arial, sans-serif;
+    padding: 10px;
+    color: #0D0D0D;
+}
+a{
+    text-decoration: none;
+}
+
+/*--IDs--*/
+#logo {
+    float: left;
+    width: 20%;
+}
+
+#id_logo {
+    width: 95%;
+}
+
+#menupesquisa {
+    float: right;
+    width: 80%;
+}
+
+#menu {
+    float: left;
+    margin: 25px;
+}
+
+#pesquisa {
+    float: right;
+    margin: 25px;
+}
+
+#menu a {
+    font-size: 20px;
+    color: white;
+    text-shadow: 1px 1px 1px rgb(0, 0, 0);
+    padding: 55px 20px;
+}
+
+#menu a:hover {
+    background-color: #0e3d4f;
+    color: #2f9e41;
+}
+
+#div_principal {
+    clear: both;
+    background-image: url(imagemceu.jpg);
+    background-size: 100%;
+    min-height: 400px;
+    padding: 160px 0px 0px 0px;
+}
+
+#informacao {
+    clear: both;
+}
+
+#sobre {
+    float: left;
+    width: 50%;
+    background-color: #325559;
+    padding: 20px 20px;
+    margin: 20px 0px;
+    text-align: justify;
+}
+
+#img_sobre {
+    float: right;
+    width: 40%;
+}
+
+#img_logo {
+    width: 70%;
+    margin: 25px;
+}
+
+#cabecario {
+    clear: both;
+    text-align: center;
+    background-color: #c96464;
+    font-size: 40px;
+    color: white;
+    text-shadow: 2px 2px 2px rgb(0, 0, 0);
+}
+
+#noticias {
+    clear: both;
+}
+
+#noticia1 {
+    width: 32.33%;
+    float: left;
+}
+
+#noticia2e3 {
+    width: 67.66%;
+    float: right;
+}
+
+#noticia2 {
+    /*margin: 0px 1px 0px 1px;
+    padding: 0px 1px 0px 1px;*/
+    width: 49%;
+    float: left;
+    border-left-width: 5px;
+    border-left-style: solid;
+    border-left-color: #0D0D0D;
+    border-right-width: 5px;
+    border-right-style: solid;
+    border-right-color: #0D0D0D;
+}
+
+#noticia3 {
+    width: 49%;
+    float: right;
+}
+
+/*--CLASSES--*/
+.noticia {
+    background-color: white;
+    padding: 0px 0px 30px 0px;
+    margin: 50px 0px 50px 0px;
+}
+
+.img_noticia {
+    width: 100%;
+}
+
+.subtitulo {
+    color: black;
+    text-shadow: 0.2px 0.2px 0.2px rgb(0, 0, 0);
+    text-align: left;
+    padding: 10px 15px 0px 15px;
+}
+
+.conteiner {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.efeito {
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 30px 0 30px 0;
+}
+
+.blog {
+    padding: 50px 150px 50px 150px;
+    background-color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.sobre {
+    background-color: white;
+    color: black;
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+    text-shadow: 0.2px 0.2px 0.2px rgb(0, 0, 0);
+    padding: 5px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin: auto;
+    text-align: justify;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    width: 960px;
+    margin: 0 auto;
+}
+
+.contato {
+    background-color: white;
+    color: black;
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+    text-shadow: 0.2px 0.2px 0.2px rgb(0, 0, 0);
+    padding: 40px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 600px;
+    padding-top: 50px;
+    margin: 0 auto;
+}
+
+.field {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #DDD;
+    border-radius: 5px;
+}
+
+.img_logo {
+    padding: 50px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
