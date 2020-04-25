@@ -14,7 +14,11 @@
                     "\r\n"."X=Mailer:PHP/".phpversion();
 
     
-
+if(mail($to, $assunto, $corpoemail, $cabecarioemail)){
+    echo("Email enviado com sucesso!");
+}else{
+    echo("O email não pode ser enviado!");
+}
 
 
 

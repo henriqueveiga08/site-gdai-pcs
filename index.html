@@ -3,7 +3,10 @@
 
 <head>
     <meta charset="uft-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/layout.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css">
     <title>G-DAI</title>
 </head>
 <!-- Corpo do site -->
@@ -25,7 +28,9 @@
                 <div id="pesquisa">
                     <form action="#" method="POST">
                         <input type="text" name="pesquisar" placeholder="Buscar no site">
-                        <input type="submit" value="Pesquisar" name="submit">
+                        <button type="button" class="btn btn-default" aria-label="Left Align">
+                            <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+                        </button>
                     </form>
                 </div>
             </div>
@@ -90,7 +95,11 @@
 
     </div>
     <!-- rodape -->
-    <footer>Desenvolvido por engesite@gmail.com</footer>
+    <footer>
+        <script src="js/bootstrap.min.js" type="text/javascript"></script>
+        <script src="js/jquey.js" type="text/javascript"></script>
+        Desenvolvido por engesite@gmail.com
+    </footer>
 </body>
 
 </html>
